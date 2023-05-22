@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk');
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+h1{
+    font-weight: 700;
+}
+p, span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.card1{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 375px;
+    height: 500px;
+    z-index: 1;
+
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)) ;
+}
+
+#c1-header-1{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+    color: rgb(183, 183, 183);
+}
+#circle{
+    /* border: 1px solid black; */
+
+    justify-content: center;
+    border-radius: 360px;
+
+    /* display: flexbox; */
+    width: 50%;
+    height: 180px;
+    margin-top: -25px;
+    margin-left: 25%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+
+
+}
+#c1-header-2{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20%;
+    margin-bottom: 0;
+    padding-top: 30px;
+    color: white;
+}
+#c1-para-1{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 0;
+    color: rgb(183, 183, 183);;
+
+}
+#c1-header-3{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    margin-bottom: 10px;
+}
+#c1-para-2{
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: rgb(183, 183, 183);
+}
+
+
+
+
+.card2{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px hsl(221, 100%, 96%);
+
+    width: 375px;
+    height: 500px;
+    margin-left: -30px;
+    /* padding-right: 40px ; */
+    padding-left: 60px;
+    box-sizing: border-box;
+    
+}
+#c2-header-1{
+    /* text-align: center; */
+    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+#box-1{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+.title{
+    /* border: 1px solid black; */
+    display: inline-block;
+    padding-right: 20px;
+    width: 53%;
+}
+img{
+    /* border: 1px solid black; */
+    padding: 0 8px;
+}
+#box-point{
+    /* border: 1px solid black; */
+    display: inline-block;
+    position: relative;
+    /* right: 20px; */
+}
+#title-1{
+    color: hsl(0, 100%, 67%);
+}
+/* .point{
+    font-weight: 800;
+    color: hsl(224, 30%, 27%);;
+}
+.max{
+    font-weight: 800;
+    color: rgb(170, 170, 170);
+} */
+
+
+#box-2{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+
+    margin-top: 15px;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+#box-3{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+#box-4{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.1)
+}
+
+#submit{
+    border-style: none;
+    border-radius: 20px;
+    margin: 25px 0 0 0;
+    width: 90%;
+    height: 50px;
+
+    font-size: 18px;
+    color: rgb(183, 183, 183);
+    /* background-color: hsl(241, 81%, 54%); */
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)) ;
+    /* z-index: 2; */
+}
+
+#submit:hover{
+    /* background-color: hsl(224, 30%, 27%); */
+    background-image: linear-gradient(hsl(224, 30%, 27%), hsl(224, 30%, 27%));
+}
+
+
+
+
+
+/* responsive zone */
+
+
+
+@media screen and (max-width:850px) {
+    body{
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+
+    .card2{
+        /* z-index: -1; */
+        /* position: relative;
+        float: left;
+        overflow: hidden; */
+        height: 530px;
+        margin-top: -30px;
+        margin-left: 0;
+        padding-left: 35px;
+        padding-top: 20px;
+
+        /* background-color: blue; */
+    }
+}
